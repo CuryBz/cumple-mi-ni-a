@@ -11,6 +11,20 @@
     <audio autoplay loop>
         <source src="assets/Pasilyo.mp3" type="audio/mpeg">
     </audio>
+<audio id="audio" loop>
+  <source src="assets/pasilyo.mp3" type="audio/mpeg">
+  Tu navegador no soporta el elemento de audio.
+</audio>
+
+<script>
+  document.body.addEventListener('click', () => {
+    const audio = document.getElementById('audio');
+    if (audio.paused) {
+      audio.play();
+    }
+  }, { once: true });
+</script>
+
     <div class="hearts"></div>
     <div class="content">
         <section>Hoy es tu día, mi preciosa, y quiero llenarte de palabras que, aunque no bastan, salen directo de mí...</section>
