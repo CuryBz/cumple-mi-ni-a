@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Test de música</title>
+</head>
+<body style="background: black; color: white; text-align: center; padding: 50px;">
+  <h1>Prueba de audio</h1>
+  <audio controls autoplay loop>
+    <source src="assets/Pasilyo.mp3" type="audio/mpeg">
+    Tu navegador no soporta audio.
+  </audio>
+</body>
+</html>
